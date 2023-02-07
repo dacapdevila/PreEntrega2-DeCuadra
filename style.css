@@ -1,3 +1,6 @@
+nav{
+    background-color: #CCC;
+}
 .container{
     margin-top: 50px;
 }
@@ -8,4 +11,21 @@
 
 .card-img-padding-modifier{
     padding: 10px 0 ;
+}
+
+footer{
+    color: white;
+    background-color: #3c3c3c;
+}
+
+
+
+
+/*Servicios*/
+.text_modifier{
+    text-align: justify;
+}
+.titulo_servicios{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
 }
