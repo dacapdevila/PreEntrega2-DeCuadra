@@ -16,6 +16,7 @@ nav{
 footer{
     color: white;
     background-color: #3c3c3c;
+    overflow: hidden;
 }
 
 
@@ -28,4 +29,12 @@ footer{
 .titulo_servicios{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 40px;
+}
+
+/*Media Queries*/
+
+@media screen and (max-width: 768px){     
+    .margin_footer_modifier{
+        margin-left: 5px;
+    }
 }
