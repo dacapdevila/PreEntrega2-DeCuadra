@@ -75,6 +75,14 @@ footer{
     margin: 20px 0;
     
 }
+.img_galeria{
+    transition: .5s ease;
+}
+.img_galeria:hover{
+    border-radius: 30px;
+    cursor: crosshair;
+}
+
 .galery_img_box img{
     max-width: 100%;
 }
