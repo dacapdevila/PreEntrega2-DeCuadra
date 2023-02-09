@@ -5,10 +5,15 @@
 
 body{
     font-family: 'Raleway', sans-serif;
+    background-color: #FEFEE3
+}
+main{
+    background-color: #FEFEE3;
 }
 
 nav{
-    background-color: #CCC;
+    background-color: #4C956C;
+
 }
 .container{
     margin-top: 50px;
@@ -21,10 +26,13 @@ nav{
 .card-img-padding-modifier{
     padding: 10px 0 ;
 }
-
+.box_shadow{
+    box-shadow: 5px 10px rgba(153, 153, 153, 0.5);
+    
+}
 footer{
     color: white;
-    background-color: #3c3c3c;
+    background-color: #353535;
     overflow: hidden;
 }
 
@@ -111,5 +119,8 @@ footer{
 @media screen and (max-width: 768px){     
     .margin_footer_modifier{
         margin-left: 5px;
+    }
+    .article_box_shadow{
+        box-shadow: 5px 10px rgba(153, 153, 153, 0.5);
     }
 }
