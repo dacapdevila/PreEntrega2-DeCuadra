@@ -1,11 +1,13 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&display=swap');
+
 
 
 
 
 body{
     font-family: 'Raleway', sans-serif;
-    background-color: #FEFEE3
+    background-color: $blue-500
 }
 main{
     background-color: #FEFEE3;
@@ -132,3 +134,6 @@ footer{
         box-shadow: 5px 10px rgba(153, 153, 153, 0.5);
     }
 }
+
+
+
